@@ -3,8 +3,8 @@ int main(){
     int ints;
     scanf("%d",&ints);
     if (ints%2 == 0){
-        print("Even")
+        printf("Even");
     }else{
-        print("Odd")
+        printf("Odd");
     }
 }
