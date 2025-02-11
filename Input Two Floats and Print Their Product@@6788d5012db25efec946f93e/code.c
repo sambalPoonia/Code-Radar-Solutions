@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+
+
+int main() {
+    float f1;
+    float f2;
+    scanf("%f %f",&f1,&f2);
+
+    printf("Product: %.2f", f1*f2);
+    return 0;
+}
