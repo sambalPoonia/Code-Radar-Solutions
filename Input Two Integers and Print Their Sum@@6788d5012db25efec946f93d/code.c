@@ -4,5 +4,4 @@ int main() {
     int int2;
     scanf("%d %d",&int1,&int2);
     printf("sum: %d", int1+int2);
-    return 0;
 }
