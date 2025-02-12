@@ -1,7 +1,8 @@
 #include<stdio.h>
+
 int main(){
     int a,i;
-    bool prime;
+    bool prime = true;
     scanf("%d",&a);
     if(a>1){
         for(i=2;i<a;i++){
