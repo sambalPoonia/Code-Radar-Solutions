@@ -13,18 +13,18 @@ int main() {
         // Check for vowels  
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||  
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {  
-            printf("%c is a vowel.\n", ch);  
+            printf("Vowel");  
         } else {  
-            printf("%c is a consonant.\n", ch);  
+            printf("Consonant");  
         }  
     }  
     // Check if the character is a digit  
     else if (isdigit(ch)) {  
-        printf("%c is a digit.\n", ch);  
+        printf("Digit");  
     }  
     // If it's neither a letter nor a digit, it's a special character  
     else {  
-        printf("%c is a special character.\n", ch);  
+        printf("Special Character");  
     }  
 
     return 0;  
