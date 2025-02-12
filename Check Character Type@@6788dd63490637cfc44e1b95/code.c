@@ -5,7 +5,7 @@ int main() {
     char ch;  
 
     // Prompt user input  
-    printf("Enter a character: ");  
+   
     scanf(" %c", &ch);  
 
     // Check if the character is a letter  
