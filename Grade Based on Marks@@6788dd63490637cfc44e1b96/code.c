@@ -5,12 +5,12 @@ int main(){
     if (g>=90){
         printf("A");
     }else if(g>=80){
-        printf("B")
+        printf("B");
     }else if(g>=70){
-        printf("C")
+        printf("C");
     }else if(g>=60){
-        printf("D")
+        printf("D");
     }else{
-        printf("F")
+        printf("F");
     }
 }
