@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int g;
-    scanf("%d",g);
+    scanf("%d",&g);
     if (g>=90){
         printf("A");
     }else if(g>=80){
