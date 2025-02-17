@@ -7,7 +7,7 @@ int main(){
             if(j>1 && j<a){
                 printf(" ");
             }else{
-                prinft("*")
+                printf("*");
             }
             printf("\n");
         }
