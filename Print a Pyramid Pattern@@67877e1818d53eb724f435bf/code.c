@@ -3,8 +3,8 @@ int main(){
     int a ;
     int i,j;
     scanf("%d",&a);
-    for(i=0; i<a; i++){
-        for(j=0; j<=2*a-1; j++;){
+    for(i=1; i<=a; i++){
+        for(j=1; j<=2*a-1; j++){
             printf("*");
         }
         printf("\n"); 
