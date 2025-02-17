@@ -8,7 +8,7 @@ int main(){
             if(j>=a-(i-1) && j<=a+(i-1)){
                 printf("*");
             }else{
-                printf(" ")
+                printf(" ");
             }
         }
         printf("\n"); 
