@@ -8,11 +8,11 @@ int main(){
                 if(j<=a-(i+1)+1 && j>=a+(i+1)-1){
                     printf("*");
                 }else{
-                    printf(" ");
+                    printf("*");
                 }
             }else{
                 if(j<=a-(i+1)+1 && j>=a+(i+1)-1){
-                    printf(" ");
+                    printf("*");
                 }else{
                     printf("*");
                 }
