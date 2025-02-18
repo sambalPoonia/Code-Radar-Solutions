@@ -1,24 +1,24 @@
 #include<stdio.h>
-int main(){
+
+int main() {
     int a, i, j;
     scanf("%d", &a);
-    for(i = 0; i < 2*a-1; i++){
-        for(j = 0; j < 2*a-1; j++){
-            if (i < a) {
-                if (j >= a-i-1 && j <= a+i-1) {
-                    printf("*");
-                } else {
-                    printf(" ");
-                }
+
+    for (i = 0; i < 2 * a - 1; i++) {
+        for (j = 0; j < 2 * a - 1; j++) {
+            // Calculate the absolute distance from the center
+            int rowDistance = abs(i - (a - 1));
+            int colDistance = abs(j - (a - 1));
+
+            // Print '*' if the sum of distances is less than or equal to a-1
+            if (rowDistance + colDistance <= a - 1) {
+                printf("*");
             } else {
-                if (j >= i-a+1 && j <= 3*a-i-3) {
-                    printf("*");
-                } else {
-                    printf(" ");
-                }
+                printf(" ");
             }
         }
         printf("\n");
     }
+
     return 0;
 }
