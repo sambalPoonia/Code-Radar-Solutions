@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&a);
     for(i=1; i<=a; i++){
         for(j=1; j<=2*a-1; j++){
-            if(j>=a-(i-1) && j<=a+(i-1)){
+            if(j>=a-(i) && j<=a+(i-1)){
                 printf(" %d",j);
             }else{
                 printf(" ");
