@@ -11,6 +11,7 @@ int main(){
                 printf("0"); // Print '0' for odd sum of indices  
             } 
             }
+               printf("\n");
         }
-        printf("\n");
+     
     }
